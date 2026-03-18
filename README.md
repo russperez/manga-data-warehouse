@@ -1,12 +1,15 @@
 # manga-data-warehouse
 End-to-end data pipeline: MangaDex API scraping, Oracle Cloud star schema, and NLP-based mining for sentiment, clustering, and recommendations.
 
-Project Title: Manga Data Warehousing and Mining Using MangaDex
-Author: Dharl Russell C. Perez
-Course: ITS132L – Data Warehousing and Data Mining
-Date: August 2025
+**Project Title:** Manga Data Warehousing and Mining Using MangaDex
 
-DESCRIPTION:
+**Author:** Dharl Russell C. Perez
+
+**Course:** ITS132L – Data Warehousing and Data Mining
+
+**Date:** August 2025
+
+**DESCRIPTION:**
 This project demonstrates a complete end-to-end data pipeline involving web scraping, preprocessing, data warehousing, and data mining. 
 It uses metadata from the MangaDex API to build a star schema in an Oracle Autonomous Database and applies sentiment analysis, trend analysis, 
 clustering, and a recommendation system on the cleaned data.
