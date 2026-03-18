@@ -11,9 +11,7 @@ This project demonstrates a complete end-to-end data pipeline involving web scra
 It uses metadata from the MangaDex API to build a star schema in an Oracle Autonomous Database and applies sentiment analysis, trend analysis, 
 clustering, and a recommendation system on the cleaned data.
 
-=====================
-SYSTEM REQUIREMENTS:
-=====================
+**SYSTEM REQUIREMENTS:**
 
 To run this project successfully, make sure the following are installed:
 
@@ -23,9 +21,7 @@ To run this project successfully, make sure the following are installed:
 - Oracle Autonomous Database access and wallet (for Oracle DB connection)
 - Internet connection (for scraping the MangaDex API)
 
-==================
-PYTHON LIBRARIES:
-==================
+**PYTHON LIBRARIES:**
 
 You can install all required libraries using pip:
 
@@ -37,9 +33,7 @@ python
 import nltk
 nltk.download('vader_lexicon')
 
-===========================
-EXECUTION INSTRUCTIONS:
-===========================
+**EXECUTION INSTRUCTIONS:**
 
 Step 1: Run scraping.ipynb
 - Opens a connection to the MangaDex API using requests
@@ -64,9 +58,7 @@ Step 4: Run data mining.ipynb
  • PCA visualization of clusters
  • Content-based recommendation using cosine similarity
 
-====================
-NOTES AND REMINDERS:
-====================
+**NOTES AND REMINDERS:**
 
 - Make sure the Oracle wallet is configured properly before running ET.ipynb
 - Use correct database credentials and test your Oracle DB connection before execution
@@ -74,17 +66,13 @@ NOTES AND REMINDERS:
 - The project does not scrape or store any user data. All data is public metadata
 - If any API calls fail during scraping, retry the notebook or use included backup files
 
-=============
-CONTACT INFO:
-=============
+**CONTACT INFO:**
 
 For questions or setup issues, contact:
 Dharl Russell C. Perez
 Email: [dharlrussell@gmail.com]
 
-=================
-REPRODUCIBILITY:
-=================
+**REPRODUCIBILITY:**
 
 This project is fully reproducible as long as:
 - All dependencies are installed
