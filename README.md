@@ -57,13 +57,13 @@ Step 4: Run data mining.ipynb
 - Performs:
  • Sentiment analysis using precomputed scores
 
- • Trend analysis using dim_time data
+  • Trend analysis using dim_time data
  
- • Clustering with TF-IDF + KMeans
+  • Clustering with TF-IDF + KMeans
  
- • PCA visualization of clusters
+  • PCA visualization of clusters
  
- • Content-based recommendation using cosine similarity
+  • Content-based recommendation using cosine similarity
 
 **NOTES AND REMINDERS:**
 
