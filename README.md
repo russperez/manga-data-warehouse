@@ -55,7 +55,8 @@ Step 3: Run ET.ipynb
 
 Step 4: Run data mining.ipynb
 - Performs:
- • Sentiment analysis using precomputed scores
+  
+  • Sentiment analysis using precomputed scores
 
   • Trend analysis using dim_time data
  
@@ -76,7 +77,9 @@ Step 4: Run data mining.ipynb
 **CONTACT INFO:**
 
 For questions or setup issues, contact:
+
 Dharl Russell C. Perez
+
 Email: [dharlrussell@gmail.com]
 
 **REPRODUCIBILITY:**
